@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio AZ Marc</title>
+  <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Edoh Marc AZANKPO</h1>
+    <p>Étudiant en développement d’application à ESGIS-TOGO</p>
+  </header>
+
+  <!-- Hamburger -->
+  <div class="menu-toggle" id="menu-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <!-- Navigation -->
+  <nav id="nav">
+    <a href="#apropos">À propos</a>
+    <a href="#services">Mes services</a>
+    <a href="#projets">Mes projets</a>
+    <a href="#contact">Contactez-moi</a>
+    <a href="CV_Edoh_Marc_AZANKPO.pdf" download class="cv-btn">📄 Télécharger mon CV</a>
+  </nav>
+
+  <!-- Spacer -->
+  <div style="height:130px;"></div>
+
+  <!-- Sections -->
+  <section id="apropos">
+    <h2>À propos de moi</h2>
+    <p>Je suis AZANKPO Edoh Marc, un étudiant passionné spécialisé dans la création d'applications web et mobiles. 
+        Avec une solide formation en informatique et une expérience pratique, je m'efforce de concevoir des solutions 
+        innovantes qui répondent aux besoins des utilisateurs. Mon apprentissage couvre une variété de technologies, 
+        y compris HTML, CSS, JavaScript, ainsi que des frameworks populaires tels que React et Angular. Je suis 
+        également moyen en développement backend avec Node.js et Express. En plus de mes compétences techniques, 
+        je suis un apprenant avide et je m'efforce constamment de rester à jour avec les dernières tendances et avancées 
+        dans le domaine du développement logiciel.</p>
+  </section>
+
+  <section id="services">
+    <h2>Mes services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Développement Web</h3>
+        <p>Création de sites web modernes et responsives avec HTML, CSS, JavaScript et frameworks.</p>
+      </div>
+      <div class="card">
+        <h3>Graphisme</h3>
+        <p> création de supports de communication modernes et attractifs avec Adobe Photoshop, Adobe Ilustrator</p>
+      </div>
+      <div class="card">
+        <h3>Base de Données & API</h3>
+        <p>Conception et gestion de bases de données, intégration d’API pour une communication fluide entre systèmes.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projets">
+    <h2>Mes projets</h2>
+    <div class="projets">
+      <div class="card">
+        <h3>Agence de voyage (Projet Académique)</h3>
+        <p>Application de gestion de réservations de voyages développée avec Angular & Tailwind CSS.</p>
+      </div>
+      <div class="card">
+        <h3>Site E-commerce (Projet Personnel)</h3>
+        <p>Site web dynamique et responsive pour une boutique de vente d'habits et chaussures Technologies : Html, CSS, JavaScript</p>
+      </div>
+      <div class="card">
+        <h3>Portfolio Personnel</h3>
+        <p>Site vitrine moderne mettant en avant mes compétences, mes services et mes projets professionnels.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section id="contact">
+    <h2>Contactez-moi</h2>
+    <p>Veuillez remplir le formulaire ci-dessous pour me contacter.</p>
+    <div class="formulaire">
+    <form id="contactForm">
+      <label for="name">Nom:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="prenom">Prénoms</label>
+      <input type="text" id="prenom" name="prenom" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="exemple@gmail.com" required>
+
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" rows="3" required></textarea><br>
+
+      <button type="submit"><a href="mailto:edohmarcazankpo0@gmail.com">Envoyer</a></button>
+  </div>
+  </section>
+
+  <section class="contact">
+        <div class="contact-info">
+            <div class="first-info">
+                <img src="img/Log.jpeg" alt="">
+                <h4>Adresse</h4>
+                <p>Djidjole, <br> Lome Togo</p>
+                <p>(+228) 98 92 83 37</p>
+                <a href="mailto:edohmarcazankpo0@gmail.com"><p>edohmarcazankpo0@gmail.com</p></a>
+
+                <div class="social-icon">
+                    <a href="https://wa.me/22898928337"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="https://www.facebook.com/AZ_MARC" target="_blank"><i class='bx bxl-facebook' ></i></a>
+                    <a href="https://www.tiktok.com/@azmarc2" target="_blank"><i class='bx bxl-tiktok' ></i></a>
+                    <a href="https://www.instagram.com/votre_nom_dutilisateur/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                    <a href="mailto:edohmarcazankpo0@gmail.com" target="_blank"><i class='bx bxl-gmail' ></i></a>
+                </div>
+            </div>
+
+            <div class="second-info">
+                <h4>Assistance</h4>
+                <p>Me Contactez</p>
+                <p>A-propos de moi</p>
+            </div>
+
+            <div class="third-info">
+                <h4>Mes Competemce</h4>
+                <p>Dev Web 7/10</p>
+                <p>Dev back-end 6/10</p>
+                <p>Graphisme8/10</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="end-text">
+        <p>Copyright © @2025. Tous droits réservés. Designed By AZ-MARC.</p>
+    </div>
+
+</body>
+</html>
+
